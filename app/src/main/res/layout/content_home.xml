@@ -410,7 +410,7 @@
                     android:layout_height="90dp">
 
                     <ImageView
-                        android:background="@drawable/banner"
+                        android:background="@drawable/ofs"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"/>
 
