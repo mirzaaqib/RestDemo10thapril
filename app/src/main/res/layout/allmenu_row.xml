@@ -30,20 +30,47 @@
             android:elevation="18dp"
             app:cardBackgroundColor="#8000"
             app:cardCornerRadius="3dp">
-
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/hallnametext1"
+                android:id="@+id/hallnamete"
                 android:maxLines="1"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="10dp"
                 android:ellipsize="end"
-                android:gravity="center"
+                android:gravity="left"
                 android:textColor="#fff"
                 android:textStyle="bold"
-                android:text="some text"
-                android:textSize="16sp" />
+                android:background="@drawable/nn"
+                android:textSize="20sp" />
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hallnametext1"
+            android:maxLines="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="Chicken Biryani"
+            android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hallnametex"
+                android:maxLines="1"
+                android:layout_marginLeft="320dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_favorite_border_black_24dp"
+                android:ellipsize="end"
+                android:gravity="end"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="17sp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -52,18 +79,18 @@
                 android:layout_marginLeft="5dp"
                 android:ellipsize="end"
                 android:gravity="center"
-                android:maxLines="1"
-                android:text="some text"
-                android:layout_marginTop="30dp"
+                android:maxLines="2"
+                android:text="Basmati rice and Fresh Chcikn"
+                android:layout_marginTop="37dp"
                 android:textColor="#fff"
-                android:textSize="12sp"/>
+                android:textSize="18sp"/>
 
             <RatingBar
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:numStars="5"
                 android:isIndicator="true"
-                android:layout_marginTop="60dp"
+                android:layout_marginTop="89dp"
                 android:layout_marginLeft="5dp"
                 android:progressTint="#F7DC6F"
                 style="?android:attr/ratingBarStyleSmall"
@@ -81,23 +108,22 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="4dp"
                 android:ellipsize="end"
-                android:layout_marginTop="17dp"
-                android:text="Rs"
-                android:textColor="@color/colorAccent"
+                android:layout_marginTop="44dp"
+                android:text="14 AED"
+                android:textColor="@color/white"
                 android:textSize="19sp" />
 
 
             <TextView
-                android:layout_width="100dp"
+                android:layout_width="50dp"
                 android:layout_height="35dp"
                 android:id="@+id/quickbooking"
-                android:layout_marginLeft="260dp"
+                android:layout_marginLeft="307dp"
                 android:layout_marginRight="2dp"
                 android:textAlignment="center"
-                android:text="Book"
                 android:gravity="center"
-                android:layout_marginTop="51dp"
-                android:background="@drawable/myshapequickbooing"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/ic_shopping_cart_black_24dp"
                 android:textColor="#FFF"
                 android:textSize="13sp" />
 
