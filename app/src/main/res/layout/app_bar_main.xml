@@ -27,15 +27,15 @@
                 <EditText
                     android:id="@+id/editMobileNo"
                     android:layout_width="wrap_content"
-                    android:layout_height="40dp"
+                    android:layout_height="30dp"
                     android:layout_margin="5dp"
                     android:background="@drawable/userdetail"
-                    android:hint="Find your dil ki deal"
+                    android:hint="find your meal"
                     android:fontFamily="sans-serif-thin"
-                    android:textStyle="bold"
-                    android:textColorHint="@color/white"
+                    android:textColorHint="#000"
                     android:textSize="20dp"
-                    android:textColor="@color/white"
+                    android:textColor="#000"
+                    android:inputType="textAutoComplete"
                     android:drawableLeft="@drawable/ic_search_black_24dp"
                     android:gravity="center" >
                 </EditText>

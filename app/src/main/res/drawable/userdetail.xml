@@ -6,7 +6,7 @@
         android:startColor="@color/colorPrimary"></gradient>
 
     <solid
-        android:color="@color/colorPrimary">
+        android:color="@color/rowcolor">
     </solid>
 
     <corners

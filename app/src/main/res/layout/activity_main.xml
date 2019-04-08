@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:fillViewport="true"
     android:overScrollMode="never"
+    android:nestedScrollingEnabled="false"
     android:scrollbars="none"
     tools:context=".MainActivity">
 

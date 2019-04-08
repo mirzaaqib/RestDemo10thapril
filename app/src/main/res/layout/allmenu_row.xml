@@ -9,6 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="8dp"
+        android:id="@+id/cardview"
         android:layout_marginRight="2dp"
         android:layout_marginBottom="1dp"
         android:layout_marginLeft="2dp"
@@ -47,7 +48,7 @@
             <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/hallnametext1"
+            android:id="@+id/name"
             android:maxLines="1"
             android:layout_marginLeft="5dp"
             android:layout_marginTop="10dp"
@@ -61,7 +62,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/hallnametex"
+                android:id="@+id/namenn"
                 android:maxLines="1"
                 android:layout_marginLeft="320dp"
                 android:layout_marginTop="10dp"
@@ -75,7 +76,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/halladdtext2"
+                android:id="@+id/phone"
                 android:layout_marginLeft="5dp"
                 android:ellipsize="end"
                 android:gravity="center"
@@ -129,20 +130,13 @@
 
         </android.support.v7.widget.CardView>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/layoutidfordetail"
-            android:onClick="onClick"
-            android:clickable="true"
-            android:background="#FFF"
-            android:orientation="vertical">
+
 
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="238dp"
-                android:id="@+id/foodimage"
+                android:id="@+id/thumbnail"
                 android:scaleType="fitXY"
                 android:background="@drawable/menufood"
                 android:layout_alignParentTop="true"
@@ -150,7 +144,7 @@
                 android:layout_alignParentStart="true"/>
 
 
-        </LinearLayout>
+
 
 
 

@@ -7,9 +7,12 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.ActionBarOverlayLayout;
 import android.support.v7.widget.SearchView;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -20,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
 
     private ActionBar toolbar;
 
-
     ImageView menus;
 
     @Override
@@ -29,6 +31,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         menus = findViewById(R.id.menus);
         toolbar=getSupportActionBar();
+
+        //actionBarDrawerToggle = ActionBarDrawerToggle(this, drawerLayout, toolbar, "open", R.string.navigation_drawer_close)
+
 //        loadFragment(new HomeFragment());
         menus.setOnClickListener(new View.OnClickListener() {
             @Override

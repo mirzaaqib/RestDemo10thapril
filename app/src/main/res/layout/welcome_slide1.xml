@@ -15,15 +15,16 @@
         <ImageView
             android:layout_width="@dimen/img_width_height"
             android:layout_height="@dimen/img_width_height"
-            android:src="@drawable/ic_food" />
+            android:src="@drawable/foods" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/slide_1_title"
+            android:fontFamily="sans-serif-thin"
             android:textColor="@android:color/white"
             android:textSize="@dimen/slide_title"
-            android:textStyle="bold" />
+            />
 
         <TextView
             android:layout_width="wrap_content"
@@ -33,6 +34,7 @@
             android:paddingRight="@dimen/desc_padding"
             android:text="@string/slide_1_desc"
             android:textAlignment="center"
+            android:fontFamily="sans-serif-thin"
             android:textColor="@android:color/white"
             android:textSize="@dimen/slide_desc" />
 

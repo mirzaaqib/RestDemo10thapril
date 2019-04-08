@@ -1,6 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!--<group>-->
+
+        <!--<item android:id="@+id/nav_item_two"-->
+            <!--android:title="Menu" />-->
+
+        <!--<item android:id="@+id/nav_item_three"-->
+            <!--android:title="My bookings" />-->
+    <!--</group>-->
+
+    <!--<group android:id="@+id/group_menu">-->
+
+        <!--<item android:id="@+id/nav_item_four"-->
+            <!--android:title="Offers" />-->
+
+        <!--<item android:id="@+id/nav_item_five"-->
+            <!--android:title="food gallery" />-->
+
+        <!--<item android:id="@+id/nav_item_seven"-->
+            <!--android:title="Share and Loyalty" />-->
+    <!--</group>-->
+
+    <!--<item android:title="Extra">-->
+        <!--<menu>-->
+
+            <!--<item android:id="@+id/nav_item_eight"-->
+                <!--android:title="About us" />-->
+
+            <!--<item android:id="@+id/nav_item_nine"-->
+                <!--android:title="Franchise" />-->
+
+            <!--<item android:id="@+id/nav_item_ten"-->
+                <!--android:title="Bulk order" />-->
+
+            <!--<item android:id="@+id/nav_item_eleven"-->
+                <!--android:title="Career" />-->
+
+            <!--<item android:id="@+id/nav_item_twelve"-->
+                <!--android:title="App Share" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
     <!--<item-->
         <!--android:id="@+id/navigation_home"-->
         <!--android:icon="@drawable/ic_home_black_24dp"-->
